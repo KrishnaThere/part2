@@ -53,6 +53,9 @@
     height:150px;
     font-family: "pressato-variable", sans-serif;
     background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
      }
 
      #charInput2 {
@@ -70,6 +73,11 @@
         background-color: white;
 
      }
+
+     #submitButton:active {
+      background-color: #22e65d; /* Change this to your preferred background color */
+      color: rgb(4, 0, 254); /* Change this to your preferred font color */
+  }
 
      /* STYLE FOR THE IMAGE */
      #displayedImage {
