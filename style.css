@@ -1,0 +1,235 @@
+     body{
+        font-family: "pressato-variable", sans-serif;
+/* font-variation-settings: "slnt" 0, "wght" 100, "wdth" 20; */
+        background-color: #f0fdf1;
+     }
+     .page{
+        display:flex;
+        flex-direction: row;
+        padding:30px;
+        gap:30px;
+     }
+     .image{
+        width:50vw;
+        /* margin:50px; */
+        margin-top: 0;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        background-color:white;
+     }
+     .image img {
+        width: 100%; /* Ensures the image stretches to fit the container */
+        height: 100%; /* Ensures the image fills the container */
+        object-fit: contain; /* Keeps the aspect ratio intact without cropping */
+    }
+     .form{
+        display:flex;
+        flex-direction: column;
+        height:90vh;
+        margin:auto;
+        justify-content: space-between;
+     }
+     .instruction{
+        justify-content: space-between;
+     }
+     .instruction h1{
+        font-size: 5rem;
+        color:#e44125;
+      
+     }
+
+    .inputs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+     
+     /* STYLE FOR THE INPUT FIELD */
+     #charInput1 {
+    font-size: 8rem;
+    width:200px;
+    height:150px;
+    font-family: "pressato-variable", sans-serif;
+    background-color: white;
+     }
+
+     #charInput2 {
+        width:200px;
+        height:150px;
+        background-color: white;
+     }
+
+     /* STYLE FOR THE SUBMIT BUTTON */
+     #submitButton {
+        width:100%;
+        font-family: "pressato-variable", sans-serif;
+        font-size: 5rem;
+        padding-top: 20px;
+        background-color: white;
+
+     }
+
+     /* STYLE FOR THE IMAGE */
+     #displayedImage {
+         display: none; /* This line is mandatory */
+     }
+
+
+     @media screen and (max-width: 1155px) {
+
+      .page{
+         display:flex;
+         flex-direction: row;
+         padding:30px;
+         gap:30px;
+      }
+      .image{
+         width:70vw;
+         /* margin:50px; */
+         margin-top: 0;
+         margin-bottom: 0;
+         box-sizing: border-box;
+         background-color:white;
+      }
+      .image img {
+         width: 100%; /* Ensures the image stretches to fit the container */
+         height: 100%; /* Ensures the image fills the container */
+         object-fit: contain; /* Keeps the aspect ratio intact without cropping */
+     }
+      .form{
+         display:flex;
+         flex-direction: column;
+         height:90vh;
+         margin:auto;
+         justify-content: space-between;
+      }
+      .instruction{
+         justify-content: space-between;
+      }
+      .instruction h1{
+         font-size: 4rem;
+         color:#e44125;
+       
+      }
+ 
+     .inputs{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+ 
+ 
+      
+      /* STYLE FOR THE INPUT FIELD */
+      #charInput1 {
+     font-size: 6rem;
+     width:150px;
+     height:100px;
+     font-family: "pressato-variable", sans-serif;
+     background-color: white;
+      }
+ 
+      #charInput2 {
+         width:150px;
+         height:100px;
+         background-color: white;
+      }
+ 
+      /* STYLE FOR THE SUBMIT BUTTON */
+      #submitButton {
+         width:100%;
+         font-family: "pressato-variable", sans-serif;
+         font-size: 4rem;
+         padding-top: 20px;
+         background-color: white;
+ 
+      }
+ 
+      /* STYLE FOR THE IMAGE */
+      #displayedImage {
+          display: none; /* This line is mandatory */
+      }
+ 
+ 
+  }
+  
+  @media screen and (max-width: 550px) {
+  
+   .page{
+      display:flex;
+      flex-direction: column;
+      padding:30px;
+      gap:0px;
+   }
+   .image{
+      width:100%;
+      /* margin:50px; */
+      margin-top: 0;
+      margin-bottom: 0;
+      box-sizing: border-box;
+      background-color:white;
+   }
+   .image img {
+      width: 100%; /* Ensures the image stretches to fit the container */
+      height: 100%; /* Ensures the image fills the container */
+      object-fit: contain; /* Keeps the aspect ratio intact without cropping */
+  }
+   .form{
+      display:flex;
+      flex-direction: column;
+      height:auto;
+      margin:auto;
+      justify-content: flex-start;
+   }
+   .instruction{
+      justify-content: space-between;
+   }
+   .instruction h1{
+      font-size: 2.5rem;
+      color:#e44125;
+    
+   }
+
+  .inputs{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+
+   
+   /* STYLE FOR THE INPUT FIELD */
+   #charInput1 {
+  font-size: 6rem;
+  width:100px;
+  height:100px;
+  font-family: "pressato-variable", sans-serif;
+  background-color: white;
+   }
+
+   #charInput2 {
+      width:100px;
+      height:100px;
+      background-color: white;
+   }
+
+   /* STYLE FOR THE SUBMIT BUTTON */
+   #submitButton {
+      margin-top: 20px;
+      width:100%;
+      font-family: "pressato-variable", sans-serif;
+      font-size: 3rem;
+      padding-top: 10px;
+      background-color: white;
+
+   }
+
+   /* STYLE FOR THE IMAGE */
+   #displayedImage {
+       display: none; /* This line is mandatory */
+   }
+
+  
+  }
